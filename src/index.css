@@ -1,0 +1,33 @@
+:root {
+  --bg-color: #f4f4f4;
+  --btn-bg-color: #dfdfdf;
+  --heading-text-color: #e50914;
+  --text-color: rgba(0, 0, 0, 0.698);
+  --log-text-color: rgba(0, 0, 0, 0.775);
+  --icon-color: #1b1b1b;
+  --font-size: 14px;
+  --line-height: 24px;
+  --font-wight: 400;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+ul {
+  padding: 0px;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+input:focus {
+  outline: none;
+}
+p {
+  margin-bottom: 0rem !important;
+}

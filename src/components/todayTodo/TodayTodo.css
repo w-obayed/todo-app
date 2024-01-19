@@ -1,0 +1,12 @@
+.btn-custom {
+  border: none;
+  padding: 2px 4px;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-color: var(--heading-text-color);
+  border-radius: 3px;
+}
+.btn-custom svg {
+  font-size: 18px;
+  color: var(--btn-bg-color);
+}

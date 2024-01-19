@@ -1,0 +1,53 @@
+.border-radious {
+  border-radius: 15px !important;
+}
+.bg {
+  background-color: var(--bg-color) !important;
+}
+.shadow-box {
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+}
+.header-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 25px;
+}
+.header-text-h2 {
+  font-size: 35px;
+  font-weight: 900;
+  color: var(--heading-text-color);
+}
+.header-text span {
+  font-size: var(--font-size);
+  color: var(--text-color);
+  background-color: #fff !important;
+  border-radius: 15px;
+  padding: 3px 10px;
+  border: 1px solid var(--text-color);
+}
+.button {
+  margin-top: 5px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  vertical-align: middle;
+  border: 1px solid #b2b2b2;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.button svg {
+  font-size: 22px;
+  margin: -1px 12px 0px 0px;
+  color: var(--text-color);
+}
+.button span {
+  font-size: 18px;
+  color: var(--text-color);
+  font-weight: 500;
+}
+.todo-area ul li {
+  padding: 10px 0px;
+  border-bottom: 1px solid #b2b2b2;
+}
